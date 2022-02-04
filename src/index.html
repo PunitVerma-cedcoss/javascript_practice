@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+    <title>Rectangle Area and Perimeter</title>
+  </head>
+  <body>
+    <section class="s1">
+      <!-- <h1>Calculate Area and Perimeter</h1> -->
+      <form id="calc" onsubmit="test()" action="https://www.google.com">
+        <label for="lor">Lenght of Rectangle</label> <br />
+        <input
+          type="number"
+          name=""
+          id="lor"
+          value="10"
+          placeholder="Langth of Rectangle"
+          autocomplete="off"
+          required
+        />
+        mtr <br />
+        <label for="wor">Width of Rectangle</label> <br />
+        <input
+          type="number"
+          name=""
+          id="wor"
+          value="15"
+          autocomplete="off"
+          placeholder="Width of Rectangle"
+          required
+        />
+        mtr <br />
+        <input type="submit" id="submit" value="calulate" />
+        <div>
+          <p id="area"></p>
+          <p id="perimeter"></p>
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
