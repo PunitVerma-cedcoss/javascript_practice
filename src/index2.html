@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main2.css" />
+    <script src="main2.js" defer></script>
+    <title>Hours to min & vice-versa</title>
+  </head>
+  <body>
+    <section class="s1">
+      <form action="#">
+        <input
+          type="number"
+          name="Time"
+          id="time"
+          placeholder="Time"
+          required
+        />
+        <br />
+        <input type="radio" name="op" id="h_t_m" value="1" checked />
+        <label for="h_t_m">Hours to Minutes</label> <br />
+        <input type="radio" name="op" id="h_t_s" value="2" />
+        <label for="h_t_s">Hours to Seconds</label>
+        <p id="ans">Result will be displayed here</p>
+        <input type="submit" id="submit" value="Convert" />
+      </form>
+    </section>
+  </body>
+</html>
